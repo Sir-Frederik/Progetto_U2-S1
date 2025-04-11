@@ -1,0 +1,29 @@
+body {
+  font-family: "Roboto", "Spectral", sans-serif;
+}
+
+.moustard {
+  background-color: #ffc017;
+  padding: 17px 20px;
+}
+header {
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-right: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.heading {
+}
