@@ -125,3 +125,23 @@ h1 {
   justify-content: center;
   list-style-type: none;
 }
+
+.Articles_Aside_Footer {
+  margin-top: 6rem;
+  display: flex;
+  gap: 8rem;
+}
+
+.article_Card {
+  display: flex;
+  justify-content: space-between;
+}
+.article_Card img {
+  width: 28%;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
