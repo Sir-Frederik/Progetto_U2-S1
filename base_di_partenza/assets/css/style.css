@@ -13,6 +13,9 @@ header {
   justify-content: space-between;
 }
 
+header img {
+  margin-left: 50px;
+}
 nav ul {
   list-style: none;
   display: flex;
@@ -30,6 +33,7 @@ nav a {
   justify-content: space-between;
   align-items: center;
   padding-left: 4rem;
+  border-bottom: 1px solid black;
 }
 
 #cta {
@@ -53,4 +57,57 @@ h1 {
   border-radius: 50px;
   background-color: black;
   color: white;
+}
+
+.trend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  max-width: 30rem;
+}
+.trend h5 {
+  font-size: 2rem;
+  color: #ddd;
+  margin-right: 15px;
+}
+
+.trendContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.author h3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.trendContent h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.date h5 {
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 10px;
+}
+
+.trending ol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
 }
