@@ -144,7 +144,7 @@ h1 {
 }
 
 .Articles_Aside_Footer {
-  margin-top: 6rem;
+  margin-top: 3rem;
   display: flex;
   gap: 8rem;
 }
@@ -152,16 +152,48 @@ h1 {
 .article_Card {
   display: flex;
   justify-content: space-between;
-}
-
-.article_image {
-  width: 28%;
+  width: 29rem;
+  align-items: stretch;
+  height: 100%;
 }
 
 .articles {
   display: flex;
   flex-direction: column;
   gap: 4rem;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.article_image {
+  height: 90px;
+
+  width: 129px;
+  object-fit: cover;
+}
+
+.article h2 {
+  font-weight: bold;
+}
+.article p {
+  font-size: 14px;
+  color: #777;
+}
+.date {
+  font-size: 12px;
+  color: #777;
+}
+.date span {
+  background-color: #e3e0e0;
+  border-radius: 50px;
+  color: #777;
+  padding: 2px;
 }
 
 footer ul {
@@ -173,7 +205,7 @@ footer ul {
 
 footer ul li {
   font-size: 13px;
-  color: #897f7f;
+  color: #777;
 }
 
 .tag {
