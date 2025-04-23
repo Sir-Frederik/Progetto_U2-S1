@@ -13,9 +13,8 @@ header {
   justify-content: space-between;
 }
 
-#content {
-  margin-right: 15rem;
-  margin-left: 15rem;
+.content {
+  margin: 0px 6rem;
 }
 header img {
   margin-left: 50px;
@@ -79,8 +78,8 @@ h1 {
 .trend {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
-  width: 30rem;
+  /* margin: 20px 30px; */
+  width: 397px;
 }
 .trend h5 {
   font-size: 2rem;
@@ -106,12 +105,12 @@ h1 {
   margin-right: 10px;
 }
 .author h3 {
-  font-size: 1rem;
+  font-size: 12px;
   margin: 0;
 }
 
 .trendContent h2 {
-  font-size: 1.5em;
+  font-size: 15px;
   font-weight: bold;
   margin: 5px 0;
 }
@@ -127,6 +126,8 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
+  column-gap: 6.5rem;
+  row-gap: 2rem;
 }
 
 .Articles_Aside_Footer {
