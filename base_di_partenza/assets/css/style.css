@@ -20,13 +20,14 @@ header {
 
 header img {
   margin-left: 50px;
+  width: 120px;
 }
 
 nav ul {
   list-style: none;
   display: flex;
   justify-content: flex-end;
-  gap: 30px;
+  gap: 19px;
   margin-right: 11rem;
 }
 
