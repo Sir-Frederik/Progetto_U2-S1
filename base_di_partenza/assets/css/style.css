@@ -188,12 +188,14 @@ h1 {
 .date {
   font-size: 12px;
   color: #777;
+  display: flex;
 }
-.date span {
+.date button {
   background-color: #e3e0e0;
   border-radius: 50px;
   color: #777;
-  padding: 2px;
+  font-size: 10px;
+  border-style: none;
 }
 
 footer ul {
