@@ -149,6 +149,11 @@ h1 {
   gap: 8rem;
 }
 
+aside {
+  position: sticky;
+  top: 38px;
+  align-self: flex-start;
+}
 .article_Card {
   display: flex;
   justify-content: space-between;
